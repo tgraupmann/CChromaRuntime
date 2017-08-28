@@ -2,3 +2,7 @@
 ipch/
 CChromaRuntime.VC.VC.opendb
 CChromaRuntime.VC.db
+Debug/
+x64/
+CChromaRuntime.sdf
+CChromaRuntime.v11.suo
