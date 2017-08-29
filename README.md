@@ -35,7 +35,7 @@
 - Install [Windows Software Development Kit (SDK) for Windows 8.1](https://developer.microsoft.com/en-us/windows/downloads/windows-8-1-sdk)
 - Install [Windows 10 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
 - Install `Templates->Other Languages->Visual C++->Visual C++ 2015 Tools for Windows Desktop` which can be installed through the `Visual Studio New Project Dialog`
-- Install [Visual Studio 2012 Professional](https://www.visualstudio.com/vs/older-downloads/) [trial](https://my.visualstudio.com/Downloads?q=visual%20studio%202012&wt.mc_id=o~msft~vscom~older-downloads)
+- Install [Visual Studio 2012 Professional](https://www.visualstudio.com/vs/older-downloads/) [Download trial](https://download.my.visualstudio.com/pr/en_visual_studio_professional_2012_x86_web_installer_2599144.exe?t=7080ffb4-2938-40c4-a6f3-752b23ca9c4d&e=1504008471&h=37168820f626564b97169ef7ffb8f3ac&su=1)
 
 ![image_42](images/image_2.png)
 
