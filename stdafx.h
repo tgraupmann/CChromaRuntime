@@ -29,6 +29,9 @@ extern "C"
 
 	EXPORT_API void PluginSetLogDelegate(DebugLogPtr fp);
 
+	EXPORT_API bool PluginIsPlatformSupported();
+	EXPORT_API double PluginIsPlatformSupportedD();
+
 	EXPORT_API bool PluginIsInitialized();
 	EXPORT_API double PluginIsInitializedD();
 
