@@ -37,7 +37,7 @@
 - Install `Templates->Other Languages->Visual C++->Visual C++ 2015 Tools for Windows Desktop` which can be installed through the `Visual Studio New Project Dialog`
 - Install [Visual Studio 2012 Professional](https://www.visualstudio.com/vs/older-downloads/) - [Download trial](https://download.my.visualstudio.com/pr/en_visual_studio_professional_2012_x86_web_installer_2599144.exe?t=7080ffb4-2938-40c4-a6f3-752b23ca9c4d&e=1504008471&h=37168820f626564b97169ef7ffb8f3ac&su=1)
 
-![image_42](images/image_2.png)
+![image_2](images/image_2.png)
 
 <a name="getting-started"></a>
 ## Getting Started
@@ -75,25 +75,6 @@ extern "C" EXPORT_API bool PluginIsInitialized();
 extern "C" EXPORT_API double PluginIsInitializedD();
 ```
 
-**PluginIsDialogOpen**
-
-The editor dialog is a non-blocking modal window, this method returns true if the modal window is open, otherwise false.
-
-```C++
-extern "C" EXPORT_API bool PluginIsDialogOpen();
-extern "C" EXPORT_API double PluginIsDialogOpenD();
-```
-
-**PluginOpenEditorDialog**
-
-Opens a `Chroma` animation file with the `.chroma` extension. Returns zero upon success. Returns -1 if there was a failure.
-
-```C++
-extern "C" EXPORT_API int PluginOpenEditorDialog(char* path);
-extern "C" EXPORT_API double PluginOpenEditorDialogD(char* path);
-```
-
-![image_1](images/image_1.png)
 
 **PluginOpenAnimation**
 
